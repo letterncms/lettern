@@ -1,0 +1,38 @@
+# Keeps the signed update feed current, so sites go on trusting it between releases.
+name: Re-sign the update feed
+
+on:
+  schedule:
+    - cron: '17 6 1,15 * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  actions: write
+
+jobs:
+  resign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Sign it again
+        env:
+          GH_TOKEN: ${{ github.token }}
+          CMS_FEED_KEY: ${{ secrets.CMS_FEED_KEY }}
+          CMS_FEED_KID: ${{ secrets.CMS_FEED_KID }}
+        run: |
+          tag="$(gh release view --json tagName --jq .tagName)"
+          gh release download "$tag" --pattern releases.json
+          node .github/resign-feed.mjs releases.json
+          gh release upload "$tag" releases.json --clobber
+
+      # GitHub stops the schedule of a repository with no commits for 60 days. Releases can be further apart.
+      - name: Keep the schedule on
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow enable feed.yml
