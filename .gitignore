@@ -1,0 +1,11 @@
+/vendor/
+/runtime/
+/index.php
+/cms
+/setup.php
+# Composer puts plugins here. A plugin of your own: add !/plugins/<name>/
+/plugins/*
+/storage/*
+!/storage/.htaccess
+/public/_cms/
+/.env

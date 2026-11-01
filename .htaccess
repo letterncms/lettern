@@ -1,0 +1,59 @@
+# Apache rules for shared hosting (index.php lives in the site root).
+# Static files (the built site, media, assets) are served from public/ directly;
+# everything else goes through index.php. Nothing outside public/ is reachable.
+
+Options -Indexes -MultiViews
+DirectoryIndex index.php
+
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+
+    # Authorization header for API tokens on CGI/FastCGI hosts.
+    RewriteCond %{HTTP:Authorization} .
+    RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+
+    # Never serve dotfiles (except .well-known) or internal folders.
+    RewriteRule (^|/)\.(?!well-known/) - [F,L]
+    # A built page or a preview at one of these URLs (a docs page at /content/...)
+    # is not the folder; only requests that match neither are refused.
+    RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI} !-f
+    RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI}/index.html !-f
+    RewriteCond %{QUERY_STRING} !(^|&)preview=
+    RewriteRule ^(runtime|plugins|config|content|storage|vendor)(/|$) - [F,L]
+    # The CLI file `cms` needs no rule: the rules below never serve it, so /cms can be a page.
+    RewriteRule ^(composer\.(json|lock)|bundle\.json|setup\.php)$ - [F,L]
+
+    # Admin and API always hit PHP.
+    RewriteRule ^(admin|api|install)(/|$) index.php [L]
+
+    # Static file in public/
+    RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI} !-f
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteCond %{QUERY_STRING} !(^|&)preview=
+    RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI} -f
+    RewriteRule ^(.*)$ public/$1 [L]
+
+    # Pre-built page: public/<path>/index.html
+    RewriteCond %{QUERY_STRING} !(^|&)preview=
+    RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI}/index.html -f
+    RewriteRule ^(.*?)/?$ public/$1/index.html [L]
+
+    # Everything else
+    RewriteCond %{REQUEST_URI} !^/public/
+    RewriteRule ^ index.php [L]
+</IfModule>
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js|mjs|woff2?|avif|webp|png|jpe?g|gif|svg|ico)$">
+        Header set Cache-Control "public, max-age=31536000, immutable"
+    </FilesMatch>
+    <FilesMatch "\.html$">
+        Header set Cache-Control "public, max-age=0, must-revalidate"
+        Header set X-Content-Type-Options "nosniff"
+        Header set Referrer-Policy "strict-origin-when-cross-origin"
+    </FilesMatch>
+</IfModule>
+
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css text/plain text/markdown text/javascript application/javascript application/json application/xml text/xml image/svg+xml
+</IfModule>

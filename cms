@@ -1,0 +1,28 @@
+#!/usr/bin/env php
+<?php
+
+declare(strict_types=1);
+
+define('CMS_START', microtime(true));
+
+$site = __DIR__;
+$release = is_file($site.'/runtime/current') ? trim((string) file_get_contents($site.'/runtime/current')) : '';
+$vendor = preg_match('/^\d+\.\d+\.\d+(-[a-z0-9.]+)?$/', $release) === 1 && is_dir("{$site}/runtime/{$release}/vendor") ? "{$site}/runtime/{$release}/vendor" : $site.'/vendor';
+
+if (! is_file($vendor.'/autoload.php')) {
+    fwrite(STDERR, "The CMS isn't here yet. Run \"composer install\", or open this site in a browser to set it up.\n");
+
+    exit(1);
+}
+
+require $vendor.'/autoload.php';
+
+$cms = $vendor.'/letterncms/cms';
+
+// Finishes an update on the code it just switched to: the same step a browser's tick runs.
+if (($argv[1] ?? '') === 'update:finish') {
+    Cms\Foundation\Bootstrap::upgrade($cms, $site);
+    exit(0);
+}
+
+Cms\Foundation\Bootstrap::console($cms, $site);
