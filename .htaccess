@@ -4,9 +4,13 @@
 
 Options -Indexes -MultiViews
 DirectoryIndex index.php
+# A URL that names a folder here gets no redirect to add a slash: behind a proxy that ends TLS,
+# Apache's would go to http://. The rules below route every URL, with a slash or without.
+DirectorySlash Off
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
+    RewriteOptions AllowNoSlash
 
     # Authorization header for API tokens on CGI/FastCGI hosts.
     RewriteCond %{HTTP:Authorization} .

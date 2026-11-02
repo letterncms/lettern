@@ -2138,16 +2138,16 @@
         },
         {
             "name": "letterncms/cms",
-            "version": "0.2.2",
+            "version": "0.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/letterncms/cms.git",
-                "reference": "b4fc146f2c08559d1da549defde154334042512d"
+                "reference": "53231de00c3276f1927baaca3ca8104b4dc24e4e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/letterncms/cms/zipball/b4fc146f2c08559d1da549defde154334042512d",
-                "reference": "b4fc146f2c08559d1da549defde154334042512d",
+                "url": "https://api.github.com/repos/letterncms/cms/zipball/53231de00c3276f1927baaca3ca8104b4dc24e4e",
+                "reference": "53231de00c3276f1927baaca3ca8104b4dc24e4e",
                 "shasum": ""
             },
             "require": {
@@ -2189,10 +2189,10 @@
             "homepage": "https://github.com/letterncms/cms",
             "support": {
                 "issues": "https://github.com/letterncms/cms/issues",
-                "source": "https://github.com/letterncms/cms/tree/v0.2.2"
+                "source": "https://github.com/letterncms/cms/tree/v0.2.3"
             },
-            "time": "2026-11-02T13:34:34+00:00",
-            "published-time": "2026-11-02T13:36:47+00:00"
+            "time": "2026-11-02T14:02:51+00:00",
+            "published-time": "2026-11-02T14:03:13+00:00"
         },
         {
             "name": "letterncms/composer-plugin",
