@@ -1,8 +1,8 @@
 {
     "brand": "Lettern",
     "mark": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIiByb2xlPSJpbWciPjxyZWN0IHdpZHRoPSIxMDAiIGhlaWdodD0iMTAwIiByeD0iMjIiIGZpbGw9IiNmZmUxMDAiLz48cGF0aCBmaWxsPSIjMGEwYTBhIiBkPSJNMjYgMjBoMTV2NDVoMzN2MTVIMjZ6Ii8+PGNpcmNsZSBjeD0iNjIiIGN5PSIzOSIgcj0iMTIuNSIgZmlsbD0iIzBhMGEwYSIvPjwvc3ZnPgo=",
-    "version": "0.7.0",
-    "url": "https://github.com/letterncms/lettern/releases/download/v0.7.0/runtime-0.7.0.zip",
-    "sha256": "213e82a7ce9826a0d02e7b5c6064fb9c747fa2d070015f54400c1c311aaacd9d",
-    "size": 15665602
+    "version": "0.8.0",
+    "url": "https://github.com/letterncms/lettern/releases/download/v0.8.0/runtime-0.8.0.zip",
+    "sha256": "9923d57283980eb54b5e669d21946195f0a6c5f4342ffa84e4774e2eabe7301f",
+    "size": 16040220
 }
