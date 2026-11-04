@@ -2138,21 +2138,22 @@
         },
         {
             "name": "letterncms/cms",
-            "version": "0.6.0",
+            "version": "0.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/letterncms/cms.git",
-                "reference": "0059c5dbaaa1b5856d0bcd8f89f3e7025b51440a"
+                "reference": "4c40d6bc7111771ca111ba0a86bafd96191efc13"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/letterncms/cms/zipball/0059c5dbaaa1b5856d0bcd8f89f3e7025b51440a",
-                "reference": "0059c5dbaaa1b5856d0bcd8f89f3e7025b51440a",
+                "url": "https://api.github.com/repos/letterncms/cms/zipball/4c40d6bc7111771ca111ba0a86bafd96191efc13",
+                "reference": "4c40d6bc7111771ca111ba0a86bafd96191efc13",
                 "shasum": ""
             },
             "require": {
                 "anthropic-ai/sdk": "^1.3",
                 "composer/semver": "^3.4",
+                "ext-gd": "*",
                 "laravel/framework": "^13.0",
                 "league/commonmark": "^2.6",
                 "letterncms/composer-plugin": ">=0.1 <1",
@@ -2169,8 +2170,12 @@
                 ],
                 "psr-4": {
                     "Cms\\": "src/",
+                    "Cms\\Modules\\Mcp\\": "modules/mcp/src/",
                     "Cms\\Modules\\Audit\\": "modules/audit/src/",
+                    "Cms\\Modules\\Email\\": "modules/email/src/",
+                    "Cms\\Modules\\Media\\": "modules/media/src/",
                     "Cms\\Modules\\Users\\": "modules/users/src/",
+                    "Cms\\Modules\\Blocks\\": "modules/blocks/src/",
                     "Cms\\Modules\\Account\\": "modules/account/src/",
                     "Cms\\Modules\\Content\\": "modules/content/src/",
                     "Cms\\Modules\\Globals\\": "modules/globals/src/",
@@ -2178,8 +2183,11 @@
                     "Cms\\Modules\\Packages\\": "modules/packages/src/",
                     "Cms\\Modules\\Settings\\": "modules/settings/src/",
                     "Cms\\Modules\\Dashboard\\": "modules/dashboard/src/",
+                    "Cms\\Modules\\Languages\\": "modules/languages/src/",
                     "Cms\\Modules\\Workspace\\": "modules/workspace/src/",
-                    "Cms\\Modules\\Collections\\": "modules/collections/src/"
+                    "Cms\\Modules\\Navigation\\": "modules/navigation/src/",
+                    "Cms\\Modules\\Collections\\": "modules/collections/src/",
+                    "Cms\\Modules\\Collaboration\\": "modules/collaboration/src/"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -2190,10 +2198,10 @@
             "homepage": "https://github.com/letterncms/cms",
             "support": {
                 "issues": "https://github.com/letterncms/cms/issues",
-                "source": "https://github.com/letterncms/cms/tree/v0.6.0"
+                "source": "https://github.com/letterncms/cms/tree/v0.7.0"
             },
-            "time": "2026-11-04T18:31:37+00:00",
-            "published-time": "2026-11-04T18:31:44+00:00"
+            "time": "2026-11-04T20:28:27+00:00",
+            "published-time": "2026-11-04T20:28:39+00:00"
         },
         {
             "name": "letterncms/composer-plugin",
