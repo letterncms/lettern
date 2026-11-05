@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "anthropic-ai/sdk",
-            "version": "v1.5.0",
+            "version": "v1.6.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/anthropics/anthropic-sdk-php.git",
-                "reference": "160fab6e2a10ce646113dc2a347d6af7e819af45"
+                "reference": "7f4ac63b8abdc24c9cdc248479c1ff653e9d584b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/anthropics/anthropic-sdk-php/zipball/160fab6e2a10ce646113dc2a347d6af7e819af45",
-                "reference": "160fab6e2a10ce646113dc2a347d6af7e819af45",
+                "url": "https://api.github.com/repos/anthropics/anthropic-sdk-php/zipball/7f4ac63b8abdc24c9cdc248479c1ff653e9d584b",
+                "reference": "7f4ac63b8abdc24c9cdc248479c1ff653e9d584b",
                 "shasum": ""
             },
             "require": {
@@ -67,10 +67,10 @@
             "description": "Anthropic PHP SDK",
             "support": {
                 "issues": "https://github.com/anthropics/anthropic-sdk-php/issues",
-                "source": "https://github.com/anthropics/anthropic-sdk-php/tree/v1.5.0"
+                "source": "https://github.com/anthropics/anthropic-sdk-php/tree/v1.6.0"
             },
-            "time": "2026-11-04T20:59:45+00:00",
-            "published-time": "2026-11-04T21:01:36+00:00"
+            "time": "2026-11-05T18:59:06+00:00",
+            "published-time": "2026-11-05T19:00:59+00:00"
         },
         {
             "name": "brick/math",
@@ -2138,16 +2138,16 @@
         },
         {
             "name": "letterncms/cms",
-            "version": "0.12.0",
+            "version": "0.13.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/letterncms/cms.git",
-                "reference": "e7fd57500c6050098d652691ff340bbc3225002f"
+                "reference": "bbe9f9d163409ccc13576c0de6f41213e48eaae6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/letterncms/cms/zipball/e7fd57500c6050098d652691ff340bbc3225002f",
-                "reference": "e7fd57500c6050098d652691ff340bbc3225002f",
+                "url": "https://api.github.com/repos/letterncms/cms/zipball/bbe9f9d163409ccc13576c0de6f41213e48eaae6",
+                "reference": "bbe9f9d163409ccc13576c0de6f41213e48eaae6",
                 "shasum": ""
             },
             "require": {
@@ -2201,10 +2201,10 @@
             "homepage": "https://github.com/letterncms/cms",
             "support": {
                 "issues": "https://github.com/letterncms/cms/issues",
-                "source": "https://github.com/letterncms/cms/tree/v0.12.0"
+                "source": "https://github.com/letterncms/cms/tree/v0.13.0"
             },
-            "time": "2026-11-05T17:07:58+00:00",
-            "published-time": "2026-11-05T17:08:40+00:00"
+            "time": "2026-11-05T22:26:38+00:00",
+            "published-time": "2026-11-05T22:26:44+00:00"
         },
         {
             "name": "letterncms/composer-plugin",
