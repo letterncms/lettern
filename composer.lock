@@ -2138,16 +2138,16 @@
         },
         {
             "name": "letterncms/cms",
-            "version": "0.9.0",
+            "version": "0.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/letterncms/cms.git",
-                "reference": "38ed52513cde5cb225374e68cc4bed37a38599bb"
+                "reference": "f37e0322b843a45f98b7325d473a5d3b9eec5747"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/letterncms/cms/zipball/38ed52513cde5cb225374e68cc4bed37a38599bb",
-                "reference": "38ed52513cde5cb225374e68cc4bed37a38599bb",
+                "url": "https://api.github.com/repos/letterncms/cms/zipball/f37e0322b843a45f98b7325d473a5d3b9eec5747",
+                "reference": "f37e0322b843a45f98b7325d473a5d3b9eec5747",
                 "shasum": ""
             },
             "require": {
@@ -2159,11 +2159,6 @@
                 "letterncms/composer-plugin": ">=0.1 <1",
                 "php": "^8.4",
                 "symfony/yaml": "^7.0|^8.0"
-            },
-            "conflict": {
-                "letterncms/assistant": "*",
-                "letterncms/site": "*",
-                "letterncms/sync": "*"
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
@@ -2206,10 +2201,10 @@
             "homepage": "https://github.com/letterncms/cms",
             "support": {
                 "issues": "https://github.com/letterncms/cms/issues",
-                "source": "https://github.com/letterncms/cms/tree/v0.9.0"
+                "source": "https://github.com/letterncms/cms/tree/v0.10.0"
             },
-            "time": "2026-11-05T13:31:52+00:00",
-            "published-time": "2026-11-05T13:31:59+00:00"
+            "time": "2026-11-05T15:22:50+00:00",
+            "published-time": "2026-11-05T15:22:57+00:00"
         },
         {
             "name": "letterncms/composer-plugin",
