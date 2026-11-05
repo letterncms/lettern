@@ -2138,16 +2138,16 @@
         },
         {
             "name": "letterncms/cms",
-            "version": "0.11.0",
+            "version": "0.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/letterncms/cms.git",
-                "reference": "b6d702b8045e56814e8908f7faa468457ebfe807"
+                "reference": "e7fd57500c6050098d652691ff340bbc3225002f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/letterncms/cms/zipball/b6d702b8045e56814e8908f7faa468457ebfe807",
-                "reference": "b6d702b8045e56814e8908f7faa468457ebfe807",
+                "url": "https://api.github.com/repos/letterncms/cms/zipball/e7fd57500c6050098d652691ff340bbc3225002f",
+                "reference": "e7fd57500c6050098d652691ff340bbc3225002f",
                 "shasum": ""
             },
             "require": {
@@ -2157,7 +2157,6 @@
                 "laravel/framework": "^13.0",
                 "league/commonmark": "^2.6",
                 "letterncms/composer-plugin": ">=0.1 <1",
-                "letterncms/design": "^0.1",
                 "php": "^8.4",
                 "symfony/yaml": "^7.0|^8.0"
             },
@@ -2202,10 +2201,10 @@
             "homepage": "https://github.com/letterncms/cms",
             "support": {
                 "issues": "https://github.com/letterncms/cms/issues",
-                "source": "https://github.com/letterncms/cms/tree/v0.11.0"
+                "source": "https://github.com/letterncms/cms/tree/v0.12.0"
             },
-            "time": "2026-11-05T16:40:08+00:00",
-            "published-time": "2026-11-05T16:40:24+00:00"
+            "time": "2026-11-05T17:07:58+00:00",
+            "published-time": "2026-11-05T17:08:40+00:00"
         },
         {
             "name": "letterncms/composer-plugin",
@@ -2244,48 +2243,6 @@
             },
             "time": "2026-11-01T15:04:23+00:00",
             "published-time": "2026-11-01T15:04:26+00:00"
-        },
-        {
-            "name": "letterncms/design",
-            "version": "v0.1.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/letterncms/design.git",
-                "reference": "68afb14d99cc3adcb88b1a66157ef1e554642958"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/letterncms/design/zipball/68afb14d99cc3adcb88b1a66157ef1e554642958",
-                "reference": "68afb14d99cc3adcb88b1a66157ef1e554642958",
-                "shasum": ""
-            },
-            "require": {
-                "php": "^8.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "Lettern\\Design\\": "php/src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "description": "Lettern Design for PHP: a fixed vocabulary of design tokens, themes derived from a few decisions, styles compiled to atomic CSS, contrast computed for every color.",
-            "homepage": "https://design.lettern.org",
-            "keywords": [
-                "css",
-                "design-system",
-                "design-tokens",
-                "oklch"
-            ],
-            "support": {
-                "issues": "https://github.com/letterncms/design/issues",
-                "source": "https://github.com/letterncms/design/tree/v0.1.1"
-            },
-            "time": "2026-11-05T15:11:56+00:00",
-            "published-time": "2026-11-05T15:16:58+00:00"
         },
         {
             "name": "monolog/monolog",
