@@ -2139,16 +2139,16 @@
         },
         {
             "name": "letterncms/cms",
-            "version": "0.21.0",
+            "version": "0.22.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/letterncms/cms.git",
-                "reference": "63ac42688f09b3a7f4dd05d6477fcce66e8d13c6"
+                "reference": "a765f0fcfd038104cb94b7d3164fee3b4b4ccc64"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/letterncms/cms/zipball/63ac42688f09b3a7f4dd05d6477fcce66e8d13c6",
-                "reference": "63ac42688f09b3a7f4dd05d6477fcce66e8d13c6",
+                "url": "https://api.github.com/repos/letterncms/cms/zipball/a765f0fcfd038104cb94b7d3164fee3b4b4ccc64",
+                "reference": "a765f0fcfd038104cb94b7d3164fee3b4b4ccc64",
                 "shasum": ""
             },
             "require": {
@@ -2160,6 +2160,13 @@
                 "letterncms/composer-plugin": ">=0.1 <1",
                 "php": "^8.4",
                 "symfony/yaml": "^7.0|^8.0"
+            },
+            "conflict": {
+                "letterncms/analytics": "<0.7",
+                "letterncms/brevo": "<0.5",
+                "letterncms/forms": "<0.12",
+                "letterncms/market": "<0.15",
+                "letterncms/seo": "<0.8"
             },
             "require-dev": {
                 "phpunit/phpunit": "^12.0"
@@ -2202,10 +2209,10 @@
             "homepage": "https://github.com/letterncms/cms",
             "support": {
                 "issues": "https://github.com/letterncms/cms/issues",
-                "source": "https://github.com/letterncms/cms/tree/v0.21.0"
+                "source": "https://github.com/letterncms/cms/tree/v0.22.0"
             },
-            "time": "2026-11-11T02:02:05+00:00",
-            "published-time": "2026-11-11T02:02:11+00:00"
+            "time": "2026-11-11T07:21:49+00:00",
+            "published-time": "2026-11-11T07:21:55+00:00"
         },
         {
             "name": "letterncms/composer-plugin",
