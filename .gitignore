@@ -5,6 +5,8 @@
 /setup.php
 # Composer puts plugins here. A plugin of your own: add !/plugins/<name>/
 /plugins/*
+# Composer and the store put site kits here. A kit of your own: add !/kits/<name>/
+/kits/*
 /storage/*
 !/storage/.htaccess
 /public/_cms/
