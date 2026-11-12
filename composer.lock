@@ -2139,16 +2139,16 @@
         },
         {
             "name": "letterncms/cms",
-            "version": "0.26.1",
+            "version": "0.27.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/letterncms/cms.git",
-                "reference": "5f232001343be023da9567c4fa084f4c668865e0"
+                "reference": "bf064591c42964e212034622f4353b7565c487e7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/letterncms/cms/zipball/5f232001343be023da9567c4fa084f4c668865e0",
-                "reference": "5f232001343be023da9567c4fa084f4c668865e0",
+                "url": "https://api.github.com/repos/letterncms/cms/zipball/bf064591c42964e212034622f4353b7565c487e7",
+                "reference": "bf064591c42964e212034622f4353b7565c487e7",
                 "shasum": ""
             },
             "require": {
@@ -2209,23 +2209,23 @@
             "homepage": "https://github.com/letterncms/cms",
             "support": {
                 "issues": "https://github.com/letterncms/cms/issues",
-                "source": "https://github.com/letterncms/cms/tree/v0.26.1"
+                "source": "https://github.com/letterncms/cms/tree/v0.27.0"
             },
-            "time": "2026-11-12T08:18:04+00:00",
-            "published-time": "2026-11-12T08:20:14+00:00"
+            "time": "2026-11-12T12:14:27+00:00",
+            "published-time": "2026-11-12T12:14:35+00:00"
         },
         {
             "name": "letterncms/composer-plugin",
-            "version": "0.2.0",
+            "version": "0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/letterncms/composer-plugin.git",
-                "reference": "7ae90617f230d228b717437e7c7cd00c6949e8e4"
+                "reference": "35bb609455ae39a38bba28c0746bceb132fd7158"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/letterncms/composer-plugin/zipball/7ae90617f230d228b717437e7c7cd00c6949e8e4",
-                "reference": "7ae90617f230d228b717437e7c7cd00c6949e8e4",
+                "url": "https://api.github.com/repos/letterncms/composer-plugin/zipball/35bb609455ae39a38bba28c0746bceb132fd7158",
+                "reference": "35bb609455ae39a38bba28c0746bceb132fd7158",
                 "shasum": ""
             },
             "require": {
@@ -2251,10 +2251,10 @@
             "description": "Puts plugins in the site's plugins/ folder and kits in kits/, and keeps a site's front controller current.",
             "support": {
                 "issues": "https://github.com/letterncms/composer-plugin/issues",
-                "source": "https://github.com/letterncms/composer-plugin/tree/v0.2.0"
+                "source": "https://github.com/letterncms/composer-plugin/tree/v0.2.1"
             },
-            "time": "2026-11-12T07:18:04+00:00",
-            "published-time": "2026-11-12T07:19:05+00:00"
+            "time": "2026-11-12T08:37:39+00:00",
+            "published-time": "2026-11-12T08:37:42+00:00"
         },
         {
             "name": "monolog/monolog",
