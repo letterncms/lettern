@@ -23,7 +23,7 @@ DirectorySlash Off
     RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI} !-f
     RewriteCond %{DOCUMENT_ROOT}/public%{REQUEST_URI}/index.html !-f
     RewriteCond %{QUERY_STRING} !(^|&)preview=
-    RewriteRule ^(runtime|plugins|kits|config|content|storage|vendor)(/|$) - [F,L]
+    RewriteRule ^(runtime|plugins|sites|config|content|storage|vendor)(/|$) - [F,L]
     # The CLI file `cms` needs no rule: the rules below never serve it, so /cms can be a page.
     RewriteRule ^(composer\.(json|lock)|bundle\.json|setup\.php)$ - [F,L]
 
