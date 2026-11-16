@@ -2141,16 +2141,16 @@
         },
         {
             "name": "letterncms/cms",
-            "version": "0.49.0",
+            "version": "0.50.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/letterncms/cms.git",
-                "reference": "4d3c1cc8e3c4a491e0826e037d92f178ef24cc3d"
+                "reference": "f7e3cd27dc625cdc0048f2827b5fbce43723455e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/letterncms/cms/zipball/4d3c1cc8e3c4a491e0826e037d92f178ef24cc3d",
-                "reference": "4d3c1cc8e3c4a491e0826e037d92f178ef24cc3d",
+                "url": "https://api.github.com/repos/letterncms/cms/zipball/f7e3cd27dc625cdc0048f2827b5fbce43723455e",
+                "reference": "f7e3cd27dc625cdc0048f2827b5fbce43723455e",
                 "shasum": ""
             },
             "require": {
@@ -2192,14 +2192,12 @@
                     "Cms\\Modules\\Blocks\\": "modules/blocks/src/",
                     "Cms\\Modules\\Account\\": "modules/account/src/",
                     "Cms\\Modules\\Content\\": "modules/content/src/",
-                    "Cms\\Modules\\Globals\\": "modules/globals/src/",
                     "Cms\\Modules\\Packages\\": "modules/packages/src/",
                     "Cms\\Modules\\Settings\\": "modules/settings/src/",
                     "Cms\\Modules\\Assistant\\": "modules/assistant/src/",
                     "Cms\\Modules\\Dashboard\\": "modules/dashboard/src/",
                     "Cms\\Modules\\Languages\\": "modules/languages/src/",
                     "Cms\\Modules\\Workspace\\": "modules/workspace/src/",
-                    "Cms\\Modules\\Navigation\\": "modules/navigation/src/",
                     "Cms\\Modules\\Collections\\": "modules/collections/src/",
                     "Cms\\Modules\\Collaboration\\": "modules/collaboration/src/"
                 }
@@ -2212,10 +2210,10 @@
             "homepage": "https://github.com/letterncms/cms",
             "support": {
                 "issues": "https://github.com/letterncms/cms/issues",
-                "source": "https://github.com/letterncms/cms/tree/v0.49.0"
+                "source": "https://github.com/letterncms/cms/tree/v0.50.0"
             },
-            "time": "2026-11-16T23:04:59+00:00",
-            "published-time": "2026-11-16T23:05:06+00:00"
+            "time": "2026-11-16T23:40:24+00:00",
+            "published-time": "2026-11-16T23:40:33+00:00"
         },
         {
             "name": "letterncms/composer-plugin",
