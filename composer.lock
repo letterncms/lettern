@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "anthropic-ai/sdk",
-            "version": "v1.9.0",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/anthropics/anthropic-sdk-php.git",
-                "reference": "69f5beca073b094689e3ff5a5cd63eaa64e584b8"
+                "reference": "eae842ed151924904bf7c080b0064a7fed0350af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/anthropics/anthropic-sdk-php/zipball/69f5beca073b094689e3ff5a5cd63eaa64e584b8",
-                "reference": "69f5beca073b094689e3ff5a5cd63eaa64e584b8",
+                "url": "https://api.github.com/repos/anthropics/anthropic-sdk-php/zipball/eae842ed151924904bf7c080b0064a7fed0350af",
+                "reference": "eae842ed151924904bf7c080b0064a7fed0350af",
                 "shasum": ""
             },
             "require": {
@@ -67,10 +67,10 @@
             "description": "Anthropic PHP SDK",
             "support": {
                 "issues": "https://github.com/anthropics/anthropic-sdk-php/issues",
-                "source": "https://github.com/anthropics/anthropic-sdk-php/tree/v1.9.0"
+                "source": "https://github.com/anthropics/anthropic-sdk-php/tree/v1.10.0"
             },
-            "time": "2026-11-16T16:46:03+00:00",
-            "published-time": "2026-11-16T16:48:02+00:00"
+            "time": "2026-11-17T18:29:20+00:00",
+            "published-time": "2026-11-17T18:31:20+00:00"
         },
         {
             "name": "brick/math",
@@ -799,16 +799,16 @@
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "8.5.0",
+            "version": "8.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "f8aca40edffeae0ec508b92f4594766083c6e203"
+                "reference": "8e893188e1ac92b457eca35ddf2b574024b66280"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/f8aca40edffeae0ec508b92f4594766083c6e203",
-                "reference": "f8aca40edffeae0ec508b92f4594766083c6e203",
+                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/8e893188e1ac92b457eca35ddf2b574024b66280",
+                "reference": "8e893188e1ac92b457eca35ddf2b574024b66280",
                 "shasum": ""
             },
             "require": {
@@ -906,7 +906,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/guzzle/issues",
-                "source": "https://github.com/guzzle/guzzle/tree/8.5.0"
+                "source": "https://github.com/guzzle/guzzle/tree/8.5.2"
             },
             "funding": [
                 {
@@ -922,8 +922,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-13T03:12:32+00:00",
-            "published-time": "2026-11-13T03:13:04+00:00"
+            "time": "2026-11-17T16:24:00+00:00",
+            "published-time": "2026-11-17T16:24:22+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -1220,16 +1220,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v13.42.0",
+            "version": "v13.43.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "f5c01f6b63803f16f38ebb31622c4fea412bd022"
+                "reference": "72aa7e151062e218704d8660f407e6070040d8bc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/f5c01f6b63803f16f38ebb31622c4fea412bd022",
-                "reference": "f5c01f6b63803f16f38ebb31622c4fea412bd022",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/72aa7e151062e218704d8660f407e6070040d8bc",
+                "reference": "72aa7e151062e218704d8660f407e6070040d8bc",
                 "shasum": ""
             },
             "require": {
@@ -1284,6 +1284,7 @@
                 "voku/portable-ascii": "^2.0.2"
             },
             "conflict": {
+                "laravel/horizon": "<5.47.0",
                 "tightenco/collect": "<5.5.33"
             },
             "provide": {
@@ -1448,8 +1449,8 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2026-11-10T15:54:30+00:00",
-            "published-time": "2026-11-10T15:55:04+00:00"
+            "time": "2026-11-17T14:58:33+00:00",
+            "published-time": "2026-11-17T14:58:44+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -2141,16 +2142,16 @@
         },
         {
             "name": "letterncms/cms",
-            "version": "0.51.0",
+            "version": "0.52.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/letterncms/cms.git",
-                "reference": "244e5ce8079274530563505f65c74d2897d72a54"
+                "reference": "3d28be996a4472101086fa1783ea08f3f5dfc7c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/letterncms/cms/zipball/244e5ce8079274530563505f65c74d2897d72a54",
-                "reference": "244e5ce8079274530563505f65c74d2897d72a54",
+                "url": "https://api.github.com/repos/letterncms/cms/zipball/3d28be996a4472101086fa1783ea08f3f5dfc7c2",
+                "reference": "3d28be996a4472101086fa1783ea08f3f5dfc7c2",
                 "shasum": ""
             },
             "require": {
@@ -2210,10 +2211,10 @@
             "homepage": "https://github.com/letterncms/cms",
             "support": {
                 "issues": "https://github.com/letterncms/cms/issues",
-                "source": "https://github.com/letterncms/cms/tree/v0.51.0"
+                "source": "https://github.com/letterncms/cms/tree/v0.52.0"
             },
-            "time": "2026-11-17T00:00:30+00:00",
-            "published-time": "2026-11-17T00:00:40+00:00"
+            "time": "2026-11-17T19:33:44+00:00",
+            "published-time": "2026-11-17T19:33:51+00:00"
         },
         {
             "name": "letterncms/composer-plugin",
