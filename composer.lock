@@ -1012,16 +1012,16 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "3.4.0",
+            "version": "3.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "180bd6fcebd1dc289cbec5c576135f4b6f576e02"
+                "reference": "b7d9cd94918e1f042d22cf188a7a866e5906bf1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/180bd6fcebd1dc289cbec5c576135f4b6f576e02",
-                "reference": "180bd6fcebd1dc289cbec5c576135f4b6f576e02",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/b7d9cd94918e1f042d22cf188a7a866e5906bf1d",
+                "reference": "b7d9cd94918e1f042d22cf188a7a866e5906bf1d",
                 "shasum": ""
             },
             "require": {
@@ -1044,6 +1044,7 @@
                 "phpunit/phpunit": "^9.6.34"
             },
             "suggest": {
+                "ext-intl": "Convert internationalized hosts with Idna",
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
             "type": "library",
@@ -1112,7 +1113,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/3.4.0"
+                "source": "https://github.com/guzzle/psr7/tree/3.5.0"
             },
             "funding": [
                 {
@@ -1128,8 +1129,8 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-11-13T03:03:24+00:00",
-            "published-time": "2026-11-13T03:06:05+00:00"
+            "time": "2026-11-18T15:29:09+00:00",
+            "published-time": "2026-11-18T15:29:39+00:00"
         },
         {
             "name": "guzzlehttp/uri-template",
@@ -2142,16 +2143,16 @@
         },
         {
             "name": "letterncms/cms",
-            "version": "0.52.0",
+            "version": "0.53.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/letterncms/cms.git",
-                "reference": "3d28be996a4472101086fa1783ea08f3f5dfc7c2"
+                "reference": "6990c527cdfab9ba096b169b8ada89093d421c33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/letterncms/cms/zipball/3d28be996a4472101086fa1783ea08f3f5dfc7c2",
-                "reference": "3d28be996a4472101086fa1783ea08f3f5dfc7c2",
+                "url": "https://api.github.com/repos/letterncms/cms/zipball/6990c527cdfab9ba096b169b8ada89093d421c33",
+                "reference": "6990c527cdfab9ba096b169b8ada89093d421c33",
                 "shasum": ""
             },
             "require": {
@@ -2211,10 +2212,10 @@
             "homepage": "https://github.com/letterncms/cms",
             "support": {
                 "issues": "https://github.com/letterncms/cms/issues",
-                "source": "https://github.com/letterncms/cms/tree/v0.52.0"
+                "source": "https://github.com/letterncms/cms/tree/v0.53.0"
             },
-            "time": "2026-11-17T19:33:44+00:00",
-            "published-time": "2026-11-17T19:33:51+00:00"
+            "time": "2026-11-19T18:23:33+00:00",
+            "published-time": "2026-11-19T18:23:41+00:00"
         },
         {
             "name": "letterncms/composer-plugin",
@@ -2721,16 +2722,16 @@
         },
         {
             "name": "open-telemetry/api",
-            "version": "1.11.0",
+            "version": "1.12.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/opentelemetry-php/api.git",
-                "reference": "bc169d9ecd11858e941657770dc708c6a15fc5f4"
+                "reference": "b0884741f3f9d5dc60477784c8671bd2acef4ceb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/opentelemetry-php/api/zipball/bc169d9ecd11858e941657770dc708c6a15fc5f4",
-                "reference": "bc169d9ecd11858e941657770dc708c6a15fc5f4",
+                "url": "https://api.github.com/repos/opentelemetry-php/api/zipball/b0884741f3f9d5dc60477784c8671bd2acef4ceb",
+                "reference": "b0884741f3f9d5dc60477784c8671bd2acef4ceb",
                 "shasum": ""
             },
             "require": {
@@ -2757,7 +2758,7 @@
                     ]
                 },
                 "branch-alias": {
-                    "dev-main": "1.11.x-dev"
+                    "dev-main": "1.12.x-dev"
                 }
             },
             "autoload": {
@@ -2794,8 +2795,8 @@
                 "issues": "https://github.com/open-telemetry/opentelemetry-php/issues",
                 "source": "https://github.com/open-telemetry/opentelemetry-php"
             },
-            "time": "2026-11-05T11:54:49+00:00",
-            "published-time": "2026-11-05T12:00:54+00:00"
+            "time": "2026-11-19T08:10:15+00:00",
+            "published-time": "2026-11-19T08:15:35+00:00"
         },
         {
             "name": "open-telemetry/context",
@@ -3589,16 +3590,16 @@
         },
         {
             "name": "standard-webhooks/standard-webhooks",
-            "version": "v1.0.2",
+            "version": "v1.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/standard-webhooks/standard-webhooks.git",
-                "reference": "a1773d7ffc577d730e2bf4d4bd740a82a42aa904"
+                "reference": "daee8284cfe9d4e435ec16e3e68a8f30084d6aaf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/standard-webhooks/standard-webhooks/zipball/a1773d7ffc577d730e2bf4d4bd740a82a42aa904",
-                "reference": "a1773d7ffc577d730e2bf4d4bd740a82a42aa904",
+                "url": "https://api.github.com/repos/standard-webhooks/standard-webhooks/zipball/daee8284cfe9d4e435ec16e3e68a8f30084d6aaf",
+                "reference": "daee8284cfe9d4e435ec16e3e68a8f30084d6aaf",
                 "shasum": ""
             },
             "require": {
@@ -3628,10 +3629,10 @@
             ],
             "support": {
                 "issues": "https://github.com/standard-webhooks/standard-webhooks/issues",
-                "source": "https://github.com/standard-webhooks/standard-webhooks/tree/v1.0.2"
+                "source": "https://github.com/standard-webhooks/standard-webhooks/tree/v1.3.0"
             },
-            "time": "2026-02-18T19:02:27+00:00",
-            "published-time": "2026-02-25T17:09:26+00:00"
+            "time": "2026-11-17T21:25:35+00:00",
+            "published-time": "2026-11-18T20:39:01+00:00"
         },
         {
             "name": "symfony/clock",
